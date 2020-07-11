@@ -1,4 +1,4 @@
-### Hi, I'm Robert Soriano.
+## Hi, I'm Robert Soriano.
 
 I'm a software developer based in Manila, PH specializing in building websites and applications.
 
