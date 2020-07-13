@@ -1,0 +1,25 @@
+{
+  "name": "sorxrob",
+  "version": "1.0.0",
+  "description": "I'm a software developer based in Manila, PH specializing in building websites and applications.",
+  "main": "update-readme.js",
+  "scripts": {
+    "update:readme": "node update_readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorxrob/sorxrob.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sorxrob/sorxrob/issues"
+  },
+  "homepage": "https://github.com/sorxrob/sorxrob#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0",
+    "markdown-table": "^2.0.0"
+  }
+}
