@@ -9,7 +9,7 @@ function renderREADME(followersUrl, totalFollowers, selectedFollowers) {
     Have a project you'd like to discuss?
     Let's chat <a href="mailto:=sorianorobertc@gmail.com?Subject=Hello" target="_top">sorianorobertc@gmail.com</a>
     
-    ## Robert's Followers ([${totalFollowers}](${followersUrl}))
+    ## My Followers ([${totalFollowers}](${followersUrl}))
     
     ${generateTables(selectedFollowers)}`;
 
