@@ -44,7 +44,7 @@ function generateTables(followers) {
 
 async function run() {
   try {
-    const octokit = github.getOctokit(process.env.MY_TOKEN);
+    const octokit = github.getOctokit(process.env.MY_PROFILE_TOKEN);
     const { data: user } = await octokit.users.getAuthenticated();
 
     const itemsPerPage = 100; // Max is 100
