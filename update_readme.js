@@ -23,23 +23,32 @@ function generateTables(followers) {
     const top = followers.slice(0, 4);
     const bottom = followers.slice(4);
 
-    const tbl1 = table([
-      top.map((i) => i.profilePicture),
-      top.map((i) => i.profileUrl),
-    ]);
+    const tbl1 = table(
+      [top.map((i) => i.profilePicture), top.map((i) => i.profileUrl)],
+      {
+        align: top.map(() => 'c'),
+      }
+    );
 
-    const tbl2 = table([
-      bottom.map((i) => i.profilePicture),
-      bottom.map((i) => i.profileUrl),
-    ]);
+    const tbl2 = table(
+      [bottom.map((i) => i.profilePicture), bottom.map((i) => i.profileUrl)],
+      {
+        align: top.map(() => 'c'),
+      }
+    );
 
     return `${tbl1}\n\n${tbl2}`;
   }
 
-  return table([
-    followers.map((i) => i.profilePicture),
-    followers.map((i) => i.profileUrl),
-  ]);
+  return table(
+    [
+      followers.map((i) => i.profilePicture),
+      followers.map((i) => i.profileUrl),
+    ],
+    {
+      align: top.map(() => 'c'),
+    }
+  );
 }
 
 async function run() {
