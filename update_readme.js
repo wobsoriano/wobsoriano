@@ -33,7 +33,7 @@ function generateTables(followers) {
     const tbl2 = table(
       [bottom.map((i) => i.profilePicture), bottom.map((i) => i.profileUrl)],
       {
-        align: top.map(() => 'c'),
+        align: bottom.map(() => 'c'),
       }
     );
 
