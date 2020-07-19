@@ -2,7 +2,7 @@
   "name": "sorxrob",
   "version": "1.0.0",
   "description": "I'm a software developer based in Manila, PH specializing in building websites and applications.",
-  "main": "update-readme.js",
+  "main": "update_readme.js",
   "scripts": {
     "update:readme": "node update_readme"
   },
