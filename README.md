@@ -3,3 +3,5 @@ I'm a software developer based in Manila, PH specializing in building websites a
 
 Have a project you'd like to discuss?
 Let's chat <a href="mailto:=sorianorobertc@gmail.com?Subject=Hello" target="_top">sorianorobertc@gmail.com</a>
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=sorxrob&title=Star,Follower,Commit,Repo,Issue)](https://github.com/sorxrob/github-profile-trophy)
