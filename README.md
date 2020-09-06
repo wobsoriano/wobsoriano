@@ -1,5 +1,4 @@
 ## Hi there 👋
-
 I'm a software developer based in Manila, PH specializing in building websites and applications.
 
 Have a project you'd like to discuss?
