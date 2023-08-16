@@ -1,1 +1,1 @@
-I code because my mom said I should be more productive.
+Assume nothing, test everything.
