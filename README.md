@@ -1,1 +1,1 @@
-Assume nothing, test everything.
+learn by doing
